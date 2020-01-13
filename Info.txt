@@ -1,0 +1,9 @@
+1. All java src file placed under package :- com.metro.test.v1
+
+2. Main Class :- com.metro.test.v1.CardSystemTest
+
+3. Sample Swipe In and Swipe Out requests are processed and card details are displayed for that.  
+
+Since there is no particular input cases were available, all sample test input are hard-coded in main java class file.
+Note :- Sample output result are attached( refer output.txt)
+

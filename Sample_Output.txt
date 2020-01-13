@@ -1,0 +1,98 @@
+-----------------------CARD SWIPE IN DETAILS---------------------
+Card ID :1
+Swipe In station :A1
+Travel day type :weekend
+Current Balance :80.0
+-----------------------------------------------------------------------------------------
+------------------------------ Card Swipe Out Details---------------------------------
+Card id : 1
+Initial balance : 80.0
+boarded station : A1, drop station : A3
+day type : weekend
+No of stations travelled : 2
+Card balance left at drop station : 69.0
+--------------------------------------------------------------------------------------------
+-----------------------CARD SWIPE IN DETAILS---------------------
+Card ID :2
+Swipe In station :A3
+Travel day type :weekday
+Current Balance :140.5
+-----------------------------------------------------------------------------------------
+------------------------------ Card Swipe Out Details---------------------------------
+Card id : 2
+Initial balance : 140.5
+boarded station : A3, drop station : A5
+day type : weekday
+No of stations travelled : 2
+Card balance left at drop station : 126.0
+--------------------------------------------------------------------------------------------
+-----------------------CARD SWIPE IN DETAILS---------------------
+Card ID :3
+Swipe In station :A5
+Travel day type :weekday
+Current Balance :100.0
+-----------------------------------------------------------------------------------------
+------------------------------ Card Swipe Out Details---------------------------------
+Card id : 3
+Initial balance : 100.0
+boarded station : A5, drop station : A7
+day type : weekday
+No of stations travelled : 2
+Card balance left at drop station : 86.0
+--------------------------------------------------------------------------------------------
+-----------------------CARD SWIPE IN DETAILS---------------------
+Card ID :4
+Swipe In station :A2
+Travel day type :weekend
+Current Balance :500.0
+-----------------------------------------------------------------------------------------
+------------------------------ Card Swipe Out Details---------------------------------
+Card id : 4
+Initial balance : 500.0
+boarded station : A2, drop station : A4
+day type : weekend
+No of stations travelled : 2
+Card balance left at drop station : 489.0
+--------------------------------------------------------------------------------------------
+-----------------------CARD SWIPE IN DETAILS---------------------
+Card ID :5
+Swipe In station :A8
+Travel day type :weekday
+Current Balance :70.0
+-----------------------------------------------------------------------------------------
+------------------------------ Card Swipe Out Details---------------------------------
+Card id : 5
+Initial balance : 70.0
+boarded station : A8, drop station : A10
+day type : weekday
+No of stations travelled : 2
+Card balance left at drop station : 56.0
+--------------------------------------------------------------------------------------------
+-----------------------CARD SWIPE IN DETAILS---------------------
+Card ID :6
+Swipe In station :A6
+Travel day type :weekday
+Current Balance :60.0
+-----------------------------------------------------------------------------------------
+------------------------------ Card Swipe Out Details---------------------------------
+Card id : 6
+Initial balance : 60.0
+boarded station : A6, drop station : A8
+day type : weekday
+No of stations travelled : 2
+Exception occured while processing  card balance details.
+Not enough balance. Please recharge your card before proceed. 
+Not enough balance. Please recharge your card before proceed. 
+com.metro.test.v1.MetroCardProcessException
+Exception while processing card.
+	at com.metro.test.v1.CardSwipeOut.processCard(CardSwipeOut.java:30)
+	at com.metro.test.v1.Station.SwipeCard(Station.java:12)
+	at com.metro.test.v1.CardSystemTest.main(CardSystemTest.java:36)
+com.metro.test.v1.MetroCardProcessException
+	at com.metro.test.v1.CardSwipeOut.processCard(CardSwipeOut.java:30)
+	at com.metro.test.v1.Station.SwipeCard(Station.java:12)
+	at com.metro.test.v1.CardSystemTest.main(CardSystemTest.java:36)
+Exception occured while processing card details.
+Exception in thread "main" Exception occured while processing card details.
+com.metro.test.v1.MetroCardProcessException
+	at com.metro.test.v1.CardSystemTest.main(CardSystemTest.java:44)
